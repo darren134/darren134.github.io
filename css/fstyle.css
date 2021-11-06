@@ -369,9 +369,9 @@ footer ul li {
 			nav ul {
 						position: absolute;
 						top: 5vh;
-						height: 30vh;
+						height: 28vh;
 						width: 100vw;
-						padding-top: 40px;
+						padding-top: 20px;
 						background: var(--mc);
 						justify-content: space-around;
 						flex-direction: column;
