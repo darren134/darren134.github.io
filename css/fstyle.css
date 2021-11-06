@@ -342,7 +342,7 @@ h4 {
 
 footer {
 			text-align: center;
-			background-image: url("img/foot.jpg");
+			background-image: url("../img/foot.jpg");
 			background-size: cover;
 			background-color: var(--mc);
 			height: 48vh;
