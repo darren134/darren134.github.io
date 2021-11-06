@@ -360,7 +360,7 @@ footer ul li {
 }
 
 /*media query for mobile version*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 879px) {
 			
 			.menu {
 						display: flex;
