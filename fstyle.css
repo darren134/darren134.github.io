@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+:root {
+			--mc: #006B5C;
+			--b: #6070A0;
+			--y: #f8A800;
+			--u: #BAEDFE;
+			--sc: #183050;
+}
+
+* {
+			margin: 0;
+			padding: 0;
+}
+
+body {
+			font-family: "montserrat", sans-serif;
+			background-color: white;
+}
+
+nav {
+			display: flex;
+			background-color: var(--mc);
+			color: white;
+			position: relative;
+			height: 55px;
+			align-items: center;
+			justify-content: space-around;
+			z-index: 3;
+}
+
+nav #icon {
+			width: 125px;
+			height: 62.5px;
+			z-index: 4;
+}
+
+nav ul {
+			display: flex;
+			list-style: none;
+			width: 30%;
+			justify-content: space-between;
+}
+
+nav ul li a {
+			text-decoration: none;
+			padding: 8px 0;
+			color: var(--w);
+			font-size: 0.8em;
+			opacity: 0.6;
+}
+
+p {
+			text-align: justify;
+			font-size: 18px;
+			text-indent: 10px;
+}
+
+.menu {
+			display: none;
+			flex-direction: column;
+			height: 20px;
+			justify-content: space-between;
+			z-index: 5;
+}
+
+.menu span:nth-child(1) {
+			display: block;
+			width: 7px;
+			height: 3px;
+			background-color: white;
+			border-radius: 4px;
+			transform-origin: 0 0;
+			transition: 250ms;
+}
+
+.menu span:nth-child(1).an1 {
+			transform: translate(-1px, -1px) rotate(45deg);
+}
+
+.menu span:nth-child(2) {
+			display: block;
+			width: 28px;
+			height: 3px;
+			background-color: white;
+			border-radius: 4px;
+			transform-origin: 0 100%;
+			transition: 250ms;
+}
+
+.menu span:nth-child(2).an2 {
+			transform: rotate(-45deg) translate(-6px, 8px);
+}
+
+.menu span:nth-child(3) {
+			display: block;
+			width: 21px;
+			height: 3px;
+			background-color: white;
+			border-radius: 4px;
+			transform-origin: 100% 100%;
+			transition: 250ms;
+}
+
+.menu span:nth-child(3).an3 {
+			transform: rotate(45deg) translate(0px, 2.5px);
+}
+
+#judul {
+			margin: 30px 15px;
+			text-align: center;
+			color: var(--mc);
+			z-index: 2;
+}
+
+.current {
+			padding: 8px 0px;
+			border-bottom: 2.5px solid white;
+			opacity: 1;
+}
+
+#j {
+			margin: 20px 0px;
+			text-align: center;
+}
+
+h3 {
+			margin: 20px 25px;
+			text-align: center;
+}
+
+section {
+			margin: 16px 12px;
+}
+
+.aboutus {
+			margin: 6px 0px 12px 0px;
+			padding: 24px;
+}
+
+.aboutus h3 {
+			margin-bottom: 18px;
+			background: var(--y);
+}
+
+.aboutus p {
+			line-height: 26px;
+}
+
+#note {
+			padding: 8px;
+			margin: 5px auto;
+			border-left: 3px solid var(--mc);
+			font-weight: bold;
+			color: var(--mc);
+}
+
+/*bagian project*/
+.what {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			margin: 20px 0px 0px 0px;
+			padding: 10px 8px;
+			background: linear-gradient(0deg, var(--u), #ffffff);
+}
+
+.cardw {
+			width: 400px;
+			height: 350px;
+			border-radius: 8px;
+			margin: 6px;
+			text-align: right;
+			background: white;
+			z-index: 3;
+			overflow: hidden;
+			box-shadow: 0px 0.5px 1.25px 0px var(--b);
+}
+
+.pic {
+			display: block;
+			width: 100%;
+			height: 60%;
+			background: var(--mc);
+}
+
+.pic img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+}
+
+.cardw h4 {
+			font-size: 28px;
+			margin: 12px;
+			text-align: left;
+}
+
+.cardw p {
+			font-size: 10px;
+			opacity: 0.8;
+			margin: 12px;
+}
+
+tag {
+			background: var(--y);
+			padding: 4px 8px;
+			margin: 10px 20px;
+			font-size: 14px;
+			border-radius: 6px;
+			
+}
+
+.anggota {
+			margin: 20px 0px 0px 0px;
+			padding: 14px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			background: linear-gradient(180deg, #ffffff, var(--u));
+}
+
+.card {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: space-between;
+			box-shadow: 0px 1px 2.5px 0px var(--b);
+			border-radius: 8px;
+			margin: 8px 4px;
+			padding: 18px;
+			width: 140px;
+			height: 160px;
+}
+
+.headers img {
+			width: 80px;
+			height: 80px;
+			border-radius: 80%;
+			
+}
+
+.content h4 {
+			margin: 8px 8px 4px 8px;
+			font-size: 18px;
+			text-align: center;
+}
+
+.content p {
+			opacity: 0.4;
+			font-size: 12px;
+			text-align: center;
+}
+
+.us {
+			display: flex;
+			justify-content: center;
+}
+
+.contact {
+			background: var(--sc);
+			border-radius: 16px;
+			margin: 56px 28px 28px 28px;
+			padding: 7px;
+			color: white;
+			max-width: 35vw;
+			font-family: 'nunito', sans-serif;
+}
+
+.contact form {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+}
+
+.contact form input, .contact form textarea {
+			border: 1px solid white;
+			background: var(--sc);
+			outline: none;
+			border-radius: 8px;
+			padding: 8px 12px;
+			margin: 12px 24px;
+			color: white;
+			width: 22vw;
+}
+
+.contact btn {
+			background: var(--y);
+			border-radius: 8px;
+			margin: 12px;
+			padding: 8px 12px;
+			color: black;
+			width: 9.5vw;
+			text-align: center;
+			}
+
+.contact div {
+			margin: 14px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+}
+
+.contact div i {
+			margin: 7px;
+			font-size: 24px;
+}
+
+.contact div a {
+			color: white;
+			text-decoration: none;
+			text-align: right;
+			font-size: 20px;
+}
+
+h4 {
+			text-align: center;
+			margin: 24px 30px;
+}
+
+#tribute {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 24px 0px 0px 0px;
+			padding: 8px;
+			height: 10vh;
+			background: var(--mc);
+			color: white;
+}
+
+a {
+			display: flex;
+			text-decoration: none;
+			margin: 24px 30px;
+			color: var(--w);
+			font-size: 1em;
+			opacity: 0.8;
+			text-align: center;
+}
+
+footer {
+			text-align: center;
+			background-image: url("img/foot.jpg");
+			background-size: cover;
+			background-color: var(--mc);
+			height: 48vh;
+			padding: 15px;
+			margin: 0;
+}
+
+footer ul li {
+			list-style: none;
+			margin: 8px auto;
+			font-size: 16px;
+			opacity: 0.4;
+			display: absolute;
+			bottom: 0;
+}
+
+/*media query for mobile version*/
+@media screen and (max-width: 576px) {
+			
+			.menu {
+						display: flex;
+			}
+			
+			nav ul {
+						position: absolute;
+						top: 5vh;
+						height: 30vh;
+						width: 100vw;
+						padding-top: 40px;
+						background: var(--mc);
+						justify-content: center;
+						flex-direction: column;
+						align-items: center;
+						transform: translateY(-80vh);
+						z-index: 1;
+						opacity: 0.4;
+						transition: all 800ms;
+			}
+			
+			nav ul.cih {
+						transform: translateY(0%);
+						opacity: 1;
+			}
+			.cardw {
+						margin: 12px 6px;
+			}
+			
+			.what {
+						justify-content: center;
+			}
+			
+			.cardw {
+						width: 350px;
+						height: 300px;
+			}
+			
+			.pic {
+			width: 100%;
+			height: 50%;
+			}
+			
+			.cardw h4 {
+						font-size: 22px;
+			}
+			
+			.cardw p {
+						font-size: 10px;
+			}
+			
+			.card {
+						width: 100px;
+						height: 120px;
+			}
+			
+			.headers img {
+						width: 60px;
+						height: 60px;
+			}
+			
+			.content h4 {
+						font-size: 16px;
+			}
+			
+			.content p {
+						font-size: 10px;
+			}
+			
+			.contact {
+						max-width: 85vw;
+			}
+			
+			.contact form input, .contact form textarea {
+						width: 68vw;
+						margin: 12px;
+			}
+			
+			.contact btn {
+						width: 68vw;
+			}
+			
+			.contact div a {
+						font-size: 16px;
+			}
+			
+			.credits {
+						margin: 30vh 0px;
+			}
+			
+			h4 {
+						margin: 18px 24px;
+			}
+			
+			a {
+			margin: 18px 24px;
+			font-size: 0.8em;
+			opacity: 0.6;
+}
+			
+			footer {
+						height: 24vh;
+			}
+			
+			footer ul li {
+						font-size: 12px;
+			}
+}
