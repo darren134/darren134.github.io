@@ -330,7 +330,7 @@ h4 {
 			color: white;
 }
 
-a {
+.credits a {
 			display: flex;
 			text-decoration: none;
 			margin: 24px 30px;
@@ -455,7 +455,7 @@ footer ul li {
 						margin: 18px 24px;
 			}
 			
-			a {
+			.credits a {
 			margin: 18px 24px;
 			font-size: 0.8em;
 			opacity: 0.6;
