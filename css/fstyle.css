@@ -125,7 +125,7 @@ p {
 }
 
 h3 {
-			margin: 20px 25px;
+			margin: 40px 25px 20px 25px;
 			text-align: center;
 }
 
@@ -371,9 +371,9 @@ footer ul li {
 						top: 5vh;
 						height: 28vh;
 						width: 100vw;
-						padding-top: 20px;
+						padding-top: 10px;
 						background: var(--mc);
-						justify-content: space-between;
+						justify-content: space-around;
 						flex-direction: column;
 						align-items: center;
 						transform: translateY(-80vh);
