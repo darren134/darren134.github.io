@@ -228,9 +228,9 @@ tag {
 			box-shadow: 0px 1px 2.5px 0px var(--b);
 			border-radius: 8px;
 			margin: 8px 4px;
-			padding: 18px;
-			width: 140px;
-			height: 160px;
+			padding: 36px;
+			width: 280px;
+			height: 320px;
 }
 
 .headers img {
@@ -423,6 +423,7 @@ footer ul li {
 			.card {
 						width: 100px;
 						height: 120px;
+						padding: 18px;
 			}
 			
 			.headers img {
